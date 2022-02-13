@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+	fix_baseband.sh \
     init.class_late.sh \
     init.class_main.sh \
     init.crda.sh \
