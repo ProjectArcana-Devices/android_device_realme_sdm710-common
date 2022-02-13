@@ -22,5 +22,5 @@ allow gmscore_app apexd_config_prop:file { open };
 allow gmscore_app vendor_camera_prop:file { getattr open };
 
 dontaudit gmscore_app hal_memtrack_hwservice:hwservice_manager find;
-
+dontaudit gmscore_app baseband_prop:file read;
 dontaudit gmscore_app hal_memtrack_hwservice:binder {call};

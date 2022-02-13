@@ -9,3 +9,4 @@ binder_call(radio, cnd)
 
 allow radio self:socket { create read write };
 allow radio hal_cacert_hwservice:hwservice_manager find;
+set_prop(radio, baseband_prop)
